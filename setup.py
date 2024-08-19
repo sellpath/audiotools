@@ -55,7 +55,8 @@ setup(
         "randomname",
         # Have to freeze protobuf version, https://github.com/protocolbuffers/protobuf/issues/10051
         # Borrowing pin from tensorboard source: https://github.com/tensorflow/tensorboard/commit/fd4f5ff79374252e313c2e7e9b247bc49ab0d54d.
-        "protobuf >= 3.9.2, < 3.20",
+        #"protobuf >= 3.9.2, < 3.20",
+        "protobuf",
         "tensorboard",
         "tqdm",
     ],
